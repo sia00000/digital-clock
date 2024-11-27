@@ -1,0 +1,94 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Poppins", serif;
+  background-color: #6c6b98;
+}
+
+.container {
+  height: auto;
+  width: 50%;
+  border: 20px solid black;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  border-radius: 30px;
+  background-image: url("https://media.istockphoto.com/id/672291718/photo/dark-gears-background.jpg?s=1024x1024&w=is&k=20&c=uKsq9xqCPS4JEEC-Pb-2Ue_IxHGZMCdyOc3HNQRVl30=");
+
+  color: darkgrey;
+}
+
+.center {
+  display: flex;
+  align-items: center;
+}
+
+.pm {
+  position: relative;
+  top: -30px;
+}
+
+.time {
+  font-size: 150px;
+  font-weight: 800;
+  font-family: "VT323", monospace;
+  color: #e8f0f7;
+}
+
+.week {
+  font-weight: 600;
+}
+
+.top {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+  padding: 10px;
+}
+
+.icon {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+}
+
+.clockicon {
+  margin: 5px;
+  color: #f8a007;
+}
+
+.degree {
+  font-size: 50px;
+  font-weight: 800;
+
+  color: #f8a007;
+}
+
+.date,
+.date sup {
+  font-size: 40px;
+  font-weight: 800;
+}
+
+.ab {
+  color: #f8a007;
+}
+
+.degree sup {
+  font-size: small;
+}
+
+.bottom {
+  color: #f8a007;
+}
